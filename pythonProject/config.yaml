@@ -1,0 +1,45 @@
+# Database connections
+DB_CONFIG:
+    catalog-articles:
+      host: "catalog-articles-mysql.db00.pro00.eu.idealo.com:3306"
+      user: "readonly"
+      passwd: "readonly"
+      database: "catalog_users"
+
+    content-statistics:
+      host: "content-statistics-01.srv00.pro07.eu.idealo.com"
+      user: "content-analyst"
+      passwd: "G8wlmMelLPqC"
+      database: "blackboard"
+
+    adwords:
+      host: "adwords-db.db00.pro00.eu.idealo.com"
+      user: "readonly"
+      passwd: "readonly"
+      database: "adwords"
+
+    catalog-connect:
+      host: "catalog-connect-mysql.db00.pro00.eu.idealo.com"
+      user: "readonly"
+      passwd: "readonly"
+      database: "catalog_connect"
+
+    condev-statistics:
+      host: "condev-statistics-pgsql-01.db00.pro00.eu.idealo.com"
+      user: "condev_statistics"
+      passwd: "26pq7TcJFBRH.j3tZ9dp36Wxu"
+      database: "condev_statistics"
+
+    datalake:
+      host: "presto.apps.eu.idealo.com"
+      port: 443
+      user: "dl-public-data-readonly-role/thu-thao.ha"
+      catalog: "hive"
+      http_scheme: "https"
+      schema: "default"
+
+ConnectionStr:
+  mysql: "mysql+pymysql://{user}:{passwd}@{host}/{database}"
+  postgresql: "postgresql+psycopg2://{user}:{passwd}@{host}:5432/{database}"
+
+

@@ -1,0 +1,12 @@
+preprocessing
+numpy~=1.20.3
+pandas~=1.2.4
+matplotlib
+sqlalchemy~=1.4.20
+datetime~=4.3
+statsmodels~=0.12.2
+mysql-connector-python-rf
+presto-python-client
+psycopg2-binary
+PyYAML~=6.0
+pymysql
